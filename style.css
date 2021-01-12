@@ -43,6 +43,26 @@ body {
     background-color: #57575c;
 }
 
+#operator {
+    height: 100%;
+    width: 5%;
+}
+
+#display {
+    height: 100%;
+    width: 95%;
+}
+
+#result {
+    height: 50%;
+    width: 100%;
+}
+
+#data {
+    height: 50%;
+    width:100%;
+}
+
 #zero {
     grid-column-start: 1;
     grid-column-end: 3;
