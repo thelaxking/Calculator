@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: aqua;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +14,6 @@ body {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 25% repeat(5, auto);
-    border-radius: 10px;
     background-color: white;
     grid-gap: 2px;
 }
@@ -46,21 +45,31 @@ body {
 #operator {
     height: 100%;
     width: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #display {
     height: 100%;
     width: 95%;
+    padding-right: 10px;
 }
 
 #result {
     height: 50%;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #data {
     height: 50%;
     width:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #zero {
